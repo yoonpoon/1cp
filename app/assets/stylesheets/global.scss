@@ -1,26 +1,50 @@
+@font-face {
+  font-family: 'Akkurat Mono';
+  src:font-url('AkkuratMono-Regular.eot');
+  src:font-url('AkkuratMono-Regular.eot?#iefix') format('embedded-opentype'),
+    font-url('AkkuratMono-Regular.woff2') format('woff2'),
+    font-url('AkkuratMono-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
 h1 {
   margin-bottom: 0;
 }
 
 body {
-  font-family: sans-serif;
-  font-weight: lighter;
+  font-family: arial;
   font-size: 19px;
   background:none transparent;
   background-color: white;
   color: black;
   line-height: 1.3;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.02em;
 }
 
 iframe {
-  width: 90%;
-  height: 99%;
+  width: 100%;
+  height: 100%;
+}
+
+.cookiePolicy.sc-background-light {
+  display: hidden;
+}
+
+span .true {
+  display: none;
 }
 
 .title {
-  color: #fe0000;
-  line-height: 0.9;
+  line-height: 1;
+  margin-bottom: 22px;
+}
+
+.copy {
+  margin-top: 20px;
+  font-family: monospace;
+  font-size: 15px;
 }
 
 .container {
@@ -36,11 +60,11 @@ iframe {
   margin-top: 5px;
   position: relative;
   padding-bottom: 56.45%;
-  padding-top: 30px;
+  // padding-top: 10px;
   height: 0;
   overflow: hidden;
   max-width: 100%;
-  height: auto;
+
 }
 .embed-container iframe, .embed-container object, .embed-container embed {
   position: absolute;
