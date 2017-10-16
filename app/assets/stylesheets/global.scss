@@ -47,6 +47,18 @@ span .true {
   font-size: 15px;
 }
 
+.role {
+  margin-top: 20px;
+  font-family: monospace;
+  font-size: 15px;
+}
+
+.undline {
+  padding-bottom: 3px;
+  border-bottom: 1px solid black;
+  line-height: 1.8;
+}
+
 .container {
   width: 100%;
 }
