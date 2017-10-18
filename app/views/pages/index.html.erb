@@ -1,9 +1,8 @@
-<h1 class="header f1 fw5 mt3 ml3 lh-title f3-s">DENNIS CAO — experimental and progressive sound design, los angeles + internet denniscao@gmail.com</h1>
-
-<div class="mw9 center ph5-l">
+<h1 class="header f1 fw5 mt3 ml3 lh-title f3-s">DENNIS CAO — progressive and experimental composer and sound designer, los angeles denniscao@gmail.com</h1>
+<div class="center ph5-l">
 <% @pages.each do |page| %>
   <div class="cf ph0-l mb2 bw1 bb b--black-90 pa3" >
-    <div class="fl w-100 w-50-l pr4">
+    <div class="fl w-100 w-50-l pr2">
       <div class="bg-white pv2">
         <h1 class="title fw4 mt0"> <%= page.title %></h1>
         <p class="role f7 mt0 f5-l"> <span class="undline"><%= page.role %> </span></p>
@@ -12,7 +11,7 @@
     </div>
     <div class="fl w-100 w-50-l pl0">
       <div class="bg-white pv2">
-        <div class="bw1 b--black-90 embed-container">
+        <div class="bw1 b--black-90 ml4 embed-container">
           <%= parse_markdown page.video %>
         </div>
       </div>
