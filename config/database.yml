@@ -81,5 +81,3 @@ test:
 production:
   <<: *default
   database: dennis_production
-  username: dennis
-  password: <%= ENV['DENNIS_DATABASE_PASSWORD'] %>
