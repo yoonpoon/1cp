@@ -5,6 +5,8 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+ruby '2.3.4'
+
 gem 'contentful', github: 'contentful/contentful.rb', tag: 'v1.2.2'
 
 gem 'contentful_model', github: 'sebbean/contentful_model', branch: 'patch-1'
