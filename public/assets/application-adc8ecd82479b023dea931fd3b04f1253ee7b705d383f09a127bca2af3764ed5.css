@@ -1,0 +1,165 @@
+@font-face {
+  font-family: 'neutralregular';
+  src: url(/assets/neutral-regular-webfont-e4e2dd750c2553c2b75935f1251e9a16e1f219e1ef3ba13337658c0bd2cd9ea8.woff2) format("woff2"), url(/assets/neutral-regular-webfont-8e26b9de1fb1099c51ad46f2f2807173ffe4eb3713a51c031bf2240ab03ba144.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'akkurat_monoregular';
+  src: url(/assets/akkuratmono-regular-webfont-d95080faecbd23269dfe60dbb3dace1f0adaddb2b7042ee44ea65d015e4a086a.woff2) format("woff2"), url(/assets/akkuratmono-regular-webfont-e585b336de9e6626eda7ba65c585de2940a83b087320fe5d1e5a3363a05d868a.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 17, /Users/Albert/code/yoonpoon/dennis/app/assets/stylesheets/global.scss */
+h1 {
+  margin-bottom: 0;
+}
+
+/* line 21, /Users/Albert/code/yoonpoon/dennis/app/assets/stylesheets/global.scss */
+.f1 {
+  font-size: 2.8rem;
+}
+
+/* line 25, /Users/Albert/code/yoonpoon/dennis/app/assets/stylesheets/global.scss */
+.spacer {
+  width: 100%;
+  height: 130px;
+}
+
+/* line 31, /Users/Albert/code/yoonpoon/dennis/app/assets/stylesheets/global.scss */
+body {
+  font-family: arial;
+  font-size: 19px;
+  background: none transparent;
+  background-color: white;
+  color: black;
+  line-height: 1.3;
+  letter-spacing: 0.02em;
+}
+
+/* line 41, /Users/Albert/code/yoonpoon/dennis/app/assets/stylesheets/global.scss */
+iframe {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+/* line 47, /Users/Albert/code/yoonpoon/dennis/app/assets/stylesheets/global.scss */
+.cookiePolicy.sc-background-light {
+  display: hidden;
+}
+
+/* line 51, /Users/Albert/code/yoonpoon/dennis/app/assets/stylesheets/global.scss */
+span .true {
+  display: none;
+}
+
+/* line 55, /Users/Albert/code/yoonpoon/dennis/app/assets/stylesheets/global.scss */
+.title {
+  line-height: 1;
+  margin-bottom: 22px;
+}
+
+/* line 60, /Users/Albert/code/yoonpoon/dennis/app/assets/stylesheets/global.scss */
+.copy {
+  margin-top: 20px;
+  letter-spacing: 0.01em;
+  font-family: 'akkurat_monoregular';
+  font-size: 15px;
+}
+
+/* line 67, /Users/Albert/code/yoonpoon/dennis/app/assets/stylesheets/global.scss */
+.role {
+  margin-top: 20px;
+  letter-spacing: 0.01em;
+  font-family: 'akkurat_monoregular';
+  font-size: 15px;
+}
+
+/* line 74, /Users/Albert/code/yoonpoon/dennis/app/assets/stylesheets/global.scss */
+.undline {
+  padding-bottom: 3px;
+  border-bottom: 1px solid black;
+  line-height: 1.8;
+}
+
+/* line 80, /Users/Albert/code/yoonpoon/dennis/app/assets/stylesheets/global.scss */
+.header {
+  line-height: 1;
+  letter-spacing: -.02em;
+  font-family: 'neutralregular';
+}
+
+/* line 86, /Users/Albert/code/yoonpoon/dennis/app/assets/stylesheets/global.scss */
+.title {
+  font-family: 'neutralregular';
+  letter-spacing: -.02em;
+}
+
+/* line 91, /Users/Albert/code/yoonpoon/dennis/app/assets/stylesheets/global.scss */
+.embed-container {
+  margin-top: 15px;
+  position: relative;
+  padding-bottom: 54.45%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+/* line 100, /Users/Albert/code/yoonpoon/dennis/app/assets/stylesheets/global.scss */
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 99%;
+  height: 99%;
+}
+
+/* line 108, /Users/Albert/code/yoonpoon/dennis/app/assets/stylesheets/global.scss */
+.header-wrap {
+  margin-top: 0px;
+  margin-bottom: 16px;
+  position: fixed;
+  letter-spacing: -.02em;
+  background-color: white;
+  z-index: 1000;
+  height: 115px;
+  margin-bottom: 40px;
+  border-bottom: black;
+  -webkit-background-clip: padding-box;
+  /* for Safari */
+  background-clip: padding-box;
+  /* for IE9+, Firefox 4+, Opera, Chrome */
+  -webkit-box-shadow: 0px 4px 4px #fff;
+  -moz-box-shadow: 0px 4px 4px #fff;
+  box-shadow: 0px 4px 4px #fff;
+}
+
+/* line 125, /Users/Albert/code/yoonpoon/dennis/app/assets/stylesheets/global.scss */
+.email {
+  color: black;
+  text-decoration: none;
+}
+
+/* line 130, /Users/Albert/code/yoonpoon/dennis/app/assets/stylesheets/global.scss */
+.email:hover {
+  color: #0000ff;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
+
+@import "global";
